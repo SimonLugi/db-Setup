@@ -31,3 +31,5 @@ services:
       DB_NAME: Schnuppitool
       DB_Type: "PostGre"
       SQL_FILE: "sql/init.sql"
+    volumes:
+      - ./sql/init.sql:/app/sql/init.sql
