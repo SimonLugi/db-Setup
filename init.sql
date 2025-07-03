@@ -10,8 +10,7 @@ CREATE TABLE user (
                       topscore INT DEFAULT 0,
                       beat_level1 BOOL DEFAULT FALSE,
                       beat_level2 BOOL DEFAULT FALSE,
-                      beat_level3 BOOL DEFAULT FALSE,
-                      best_placement INT DEFAULT 0
+                      beat_level3 BOOL DEFAULT FALSE
 );
 
 CREATE TABLE runs (
